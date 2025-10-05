@@ -30,8 +30,8 @@ def parse_garden_col(data):
             data.garden[i] = int(re.findall(r'\d+', data.garden[i])[0])
     return data 
 
-
-'''
+''' 
+# test
 df = prepare_data()
-print(df.shape)
+print(df['garden'])
 '''
