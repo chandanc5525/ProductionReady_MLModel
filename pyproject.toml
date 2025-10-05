@@ -1,0 +1,26 @@
+[project]
+name = "ml-productioncode"
+version = "1.0.0"
+description = "\"Machine Learning Production Ready Code Structure BootCamp\""
+authors = [
+    {name = "chandan chaudhari"}
+]
+license = {text = "25A8486"}
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy (>=2.3.3,<3.0.0)",
+    "pandas (>=2.3.3,<3.0.0)",
+    "seaborn (>=0.13.2,<0.14.0)",
+    "matplotlib (>=3.10.6,<4.0.0)",
+    "ipykernel (>=6.30.1,<7.0.0)",
+    "scikit-learn (>=1.7.2,<2.0.0)",
+    "pydentic (>=0.0.1.dev3,<0.0.2)",
+    "pendulum (>=3.1.0,<4.0.0)",
+    "arrow (>=1.3.0,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
